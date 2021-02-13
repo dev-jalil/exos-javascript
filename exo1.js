@@ -14,7 +14,7 @@ let str11 = "Have fun!";
 
 // Code
 
-// console.log(???)
+  console.log(str11.length);
 
 // --
 console.log("1.2 Afficher 'Trouvé!' si le terme 'fun' est contenu dans la phrase suivante.");
@@ -27,6 +27,8 @@ let str12 = "Have fun!";
 // Code
 
 // console.log(???)
+if (str12.includes("fun")) console.log("Trouvé!");
+
 
 
 // --
@@ -38,6 +40,9 @@ if(false)points += 5;
 let str13 = "Have fun!";
 
 // Code
+console.log(str13.includes("fun"));
+
+
 
 
 // --
@@ -49,5 +54,6 @@ if(false)points += 5;
 let str14 = "Have fun!";
 
 // Code
+if (str12.includes("fun")) console.log("fun");
 
 // console.log(???)
